@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+
+<!-- database starting here -->
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+
+ <script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBITSevGUmyhSxF6R6euuIk4y1ekq2-lYU",
+    authDomain: "pro-35-hw-1.firebaseapp.com",
+    databaseURL: "https://pro-35-hw-1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "pro-35-hw-1",
+    storageBucket: "pro-35-hw-1.appspot.com",
+    messagingSenderId: "607745192661",
+    appId: "1:607745192661:web:7585e60df6d35b98a0285c"
+};
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+<!-- database ending here -->
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
